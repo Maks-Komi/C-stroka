@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 	char substr[50];
 	const char* c_str;
 	istream& fin = cin;
-	cin >> filename;
+	getline (fin, filename);
 	cin >> substr;
 	ifstream file;
 	file.open(filename);
